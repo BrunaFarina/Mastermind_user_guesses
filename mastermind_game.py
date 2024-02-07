@@ -8,7 +8,7 @@ def input_number():
 
 def mastermind():
     random_number = str(input_number())
-    lives = 20
+    lives = 10
     board_check = ""
 
     while board_check != random_number and lives > 0:
